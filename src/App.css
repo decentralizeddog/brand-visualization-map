@@ -1,0 +1,54 @@
+#root{
+  height: 100%;
+
+}
+
+h1,h2{
+  margin-bottom: 30px;
+}
+
+.ui.checkbox{
+  margin-bottom: 0px;
+}
+hr{
+  border: 1px solid lightgray;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+/**/
+.dashboard{
+  display: flex;
+  height: 100%;
+}
+
+/* Control Panel*/
+.controlPanel{
+  border-right: 1px solid lightgray;
+  width: 580px;
+  padding: 30px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.block{
+  width: 340px;
+  margin-bottom: 20px;
+}
+
+/* Map Panel */
+.mapPanel{
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+.mainMap{
+  height: 100%;
+}
+
+.spinnerContainer{
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
